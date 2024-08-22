@@ -105,3 +105,43 @@
     color: $Bg-dark;
   }
 }
+
+// Services
+
+.services {
+  background-color: $Bg-white;
+  height: 60vh;
+  color: $Bg-dark;
+  padding: 3rem;
+
+  &__h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  &__all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 3.5rem;
+  }
+
+  &__div {
+    width: 150px;
+    height: 150px;
+    border: 3px solid $Btn-cta;
+    border-radius: 6px;
+  }
+
+  &__p {
+    width: 80%;
+    margin-top: 0.5rem;
+  }
+}
