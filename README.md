@@ -15,7 +15,11 @@ This project features a landing page with a clean and modern design. The layout 
 ## Project Structure
 
 - `index.html`: The main HTML file containing the structure of the landing page.
-- `styles.css`: The CSS file where Flexbox is implemented to style the landing page.
+- `styles.scss`: The sCSS file where Flexbox is implemented to style the landing page.
+
+#### NOTE
+
+You need to install and watch sass
 
 ## Images Credits
 
