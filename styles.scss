@@ -204,3 +204,12 @@
     font-size: 0.8rem;
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8dvh;
+  background-color: $Bg-dark;
+  color: $Text-link2;
+}

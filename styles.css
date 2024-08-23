@@ -172,4 +172,13 @@
   padding: 0 2rem;
   border-radius: 8px;
   font-size: 0.8rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8dvh;
+  background-color: #1f2937;
+  color: rgba(229, 231, 235, 0.7254901961);
 }/*# sourceMappingURL=styles.css.map */
