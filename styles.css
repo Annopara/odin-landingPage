@@ -128,7 +128,7 @@
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
-  height: 40vh;
+  height: 50vh;
 }
 .reviews__item {
   width: 50%;
@@ -143,4 +143,33 @@
   text-align: end;
   font-weight: 900;
   font-size: 1.2rem;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  color: #f9faf8;
+  height: 30vh;
+}
+.cta__div {
+  background-color: #3882f6;
+  padding: 2.5rem 7rem;
+  border-radius: 10px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+.cta__p {
+  margin: 0.4rem 0;
+  color: rgba(229, 231, 235, 0.7254901961);
+}
+.cta__btn {
+  background-color: transparent;
+  border: 2px solid rgba(229, 231, 235, 0.7254901961);
+  color: #f9faf8;
+  padding: 0 2rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=styles.css.map */

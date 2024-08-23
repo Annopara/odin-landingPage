@@ -146,12 +146,13 @@
   }
 }
 
+// Reviews
 .reviews {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $Text-link;
-  height: 40vh;
+  height: 50vh;
 
   &__item {
     width: 50%;
@@ -168,5 +169,38 @@
     text-align: end;
     font-weight: 900;
     font-size: 1.2rem;
+  }
+}
+
+// CTA
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  color: $Bg-white;
+  height: 30vh;
+
+  &__div {
+    background-color: $Btn-cta;
+    padding: 2.5rem 7rem;
+    border-radius: 10px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__p {
+    margin: 0.4rem 0;
+    color: $Text-link2;
+  }
+
+  &__btn {
+    background-color: transparent;
+    border: 2px solid $Text-link2;
+    color: $Bg-white;
+    padding: 0 2rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
   }
 }
