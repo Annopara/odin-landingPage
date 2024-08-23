@@ -115,10 +115,32 @@
 .services__div {
   width: 150px;
   height: 150px;
-  border: 3px solid #3882f6;
+  border: 5px solid #3882f6;
   border-radius: 6px;
 }
 .services__p {
   width: 80%;
   margin-top: 0.5rem;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 40vh;
+}
+.reviews__item {
+  width: 50%;
+}
+.reviews__p {
+  font-size: 1.7rem;
+  line-height: 40px;
+  font-style: italic;
+  color: #1f2937;
+}
+.reviews__pp {
+  text-align: end;
+  font-weight: 900;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=styles.css.map */
